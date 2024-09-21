@@ -1,5 +1,5 @@
 function createSnowflake() {
-    let randomani = Math.floor(Math.random() * 3 + 5) ;
+    let randomani = Math.floor(Math.random() * 3 + 8) ;
     const snowflake = document.createElement('i');
     snowflake.classList.add('fas', 'fa-code', 'snowflake'); 
     snowflake.style.left = Math.random() * window.innerWidth + 'px'; 
@@ -17,4 +17,4 @@ function createSnowflake() {
 }
 
 
-setInterval(createSnowflake, 500); 
+setInterval(createSnowflake, 1000); 
