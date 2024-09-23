@@ -46,4 +46,11 @@
     }
 }
 
+i{
+    color: white;
+}
+i:hover{
+    transition: 0.3s;
+    color: blue;
+}
 
