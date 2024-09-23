@@ -47,10 +47,10 @@
 }
 
 i{
-    color: white;
+    color: rgba(255, 255, 255, 0.281);
 }
 i:hover{
     transition: 0.3s;
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
