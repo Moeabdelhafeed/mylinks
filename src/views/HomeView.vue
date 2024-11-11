@@ -28,7 +28,7 @@ document.title = user.name
   <main>
 
     <div class="z-3">
-      <div class="container text-center mt-5">
+      <div class="container text-center mt-3">
 
 
   <transition-group
