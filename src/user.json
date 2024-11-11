@@ -1,0 +1,42 @@
+{
+    "id": 1,
+    "name": "mohammad abdelhafeed",
+    "role": "UI/UX designer | web developer 🧑‍💻",
+    "img": "/mylinks/images/me.png",
+    "widgets": [
+      {
+        "name": "github",
+        "url": "https://github.com/Moeabdelhafeed",
+        "img": "/mylinks/images/github.png"
+      },
+      {
+        "name": "linked in",
+        "url": "https://www.linkedin.com/in/mohammadabdelhafeed-3a7285283/",
+        "img": "/mylinks/images/linkedin.png"
+      },
+      {
+        "name": "behance",
+        "url": "https://www.behance.net/mohammadabdelhafeed",
+        "img": "/mylinks/images/behance.png"
+      },
+      {
+        "name": "my resume",
+        "url": "/mylinks/resume.pdf",
+        "img": "/mylinks/images/pdf.png"
+      }
+    ],
+    "icons": [
+      {
+        "name": "whatsapp",
+        "url": "https://wa.me/962796239902"
+      },
+      {
+        "name": "envelope",
+        "url": "mailto:almormohammad939@gmail.com"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/moe_almor/"
+      }
+    ]
+  }
