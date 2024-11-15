@@ -5,6 +5,7 @@ export const animate = () => {
         gsap.set(el, {
             y: 100,
             opacity: 0,
+            
           });
     }
 

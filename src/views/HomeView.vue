@@ -45,7 +45,7 @@ document.title = user.name
 
             <Widget v-for="(widget , index) in user.widgets" :key="index" :widget="widget" :data-index="index + 1" />
 
-            <div key="icons" :data-index=" widgetsLength  + 1" class="row justify-content-center m-auto mt-3 flex-row" style="width: 200px;"  >
+            <div key="icons" :data-index=" widgetsLength  + 1" class="row justify-content-center m-auto mt-3 flex-row" style="width: 200px;padding-bottom: 60px;"  >
                 <Icon v-for="(icon , index) in user.icons" :key="index" :icon="icon"  />
             </div>
     </transition-group>
