@@ -17,6 +17,7 @@ html::-webkit-scrollbar {
 }
 
 .body {
+  background-color: #191d1c;
   height: 100%;
   overflow-y: scroll; 
   color: #ffffff;
