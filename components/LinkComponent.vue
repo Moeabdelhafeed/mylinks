@@ -7,7 +7,8 @@
   >
     <div
       ref="glowCard"
-      class="cursor-pointer hover:rotate-[2deg] glow-capture relative shadow shadow-black transition-all duration-300 border-2 bg-secondary mb-3 border-white/10 rounded-full py-4 px-2.5 overflow-hidden"
+      :class="{'shadow' : user.useShadow}"
+      class="cursor-pointer hover:rotate-[2deg] glow-capture relative transition-all duration-300 border-2 bg-secondary mb-3 border-white/10 rounded-full py-4 px-2.5 overflow-hidden"
     >
       <!-- Translucent Background -->
       <div class="absolute inset-0 bg-white/5 rounded-full pointer-events-none"></div>

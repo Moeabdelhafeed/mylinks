@@ -5,6 +5,7 @@
   "userImage" : "user.png",
   "userImageBack": "userBack.png",
   "gitRepository": "mylinks",
+  "useShadow": true,
 
   "seoDescription": "All my important links in one place. Connect with me!",
   "seoTitle": "Mohammad Abdelhafeed Links",
@@ -29,7 +30,7 @@
     },
     {
       "name": "LinkedIn",
-      "url":  "https://www.linkedin.com/in/mohamamd-abdelhafeed/",
+      "url":  "https://www.linkedin.com/in/mohammadabdelhafeed-3a7285283/",
       "image": "linkedin.png"
     },
     {
