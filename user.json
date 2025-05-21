@@ -1,0 +1,59 @@
+{
+  "title" : "Mohammad Abdelhafeed Links",
+  "name": "Mohamamd Abdelhafeed",
+  "role": "Web Developer | UI/UX Designer",
+  "userImage" : "user.png",
+  "userImageBack": "userBack.png",
+  "gitRepository": "mylinks",
+
+  "seoDescription": "All my important links in one place. Connect with me!",
+  "seoTitle": "Mohammad Abdelhafeed Links",
+  "seoKeywords": "Mohammad Abdelhafeed, Web Developer, UI/UX Designer, Links, Portfolio, Github, Nuxtjs",
+  "seoImage": "user.png",
+  "seoUrl": "https://mohamamdabdelhafeed.github.io/mylinks/",
+
+  "theme":{
+    "colors": {
+      "primary": "#00C777",
+      "secondary": "#020618",
+      "text": "#ffffff"
+    }
+  },
+
+
+  "links":[
+    {
+      "name": "Github",
+      "url":  "https://github.com/Moeabdelhafeed",
+      "image": "github.png"
+    },
+    {
+      "name": "LinkedIn",
+      "url":  "https://www.linkedin.com/in/mohamamd-abdelhafeed/",
+      "image": "linkedin.png"
+    },
+    {
+      "name": "Behance",
+      "url":  "https://www.behance.net/mohammadabdelhafeed",
+      "image": "behance.png"
+    },
+    {
+      "name": "Instagram",
+      "url":  "https://www.instagram.com/moe_abdelhafeed/",
+      "image": "instagram.png"
+    }
+  ],
+
+  "icons":[
+    {
+      "name": "Whatsapp",
+      "url":  "https://wa.me/962798371926",
+      "bootstrapIcon": "bi bi-whatsapp"
+    },
+    {
+      "name": "Email",
+      "url":  "mailto:almormohammad939@gmail.com",
+      "bootstrapIcon": "bi bi-envelope"
+    }
+  ]
+}
