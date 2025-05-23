@@ -44,9 +44,9 @@
       "image": "medium.png"
     },
     {
-      "name": "Instagram",
-      "url":  "https://www.instagram.com/moe_abdelhafeed/",
-      "image": "instagram.png"
+      "name": "YouTube",
+      "url":  "https://www.youtube.com/channel/UCvQCzSqpjEEiHViD89bNBrQ",
+      "image": "youtube.png"
     }
   ],
 
@@ -60,6 +60,11 @@
       "name": "Email",
       "url":  "mailto:almormohammad939@gmail.com",
       "bootstrapIcon": "bi bi-envelope"
+    },
+    {
+      "name": "Instagram",
+      "url":  "https://www.instagram.com/moe_abdelhafeed/",
+      "bootstrapIcon": "bi bi-instagram"
     }
   ]
 }
