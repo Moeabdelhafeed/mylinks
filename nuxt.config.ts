@@ -12,11 +12,11 @@ export default defineNuxtConfig({
     preset : 'static'
   },
   app: {
-    baseURL: '/mylinks/',
+    baseURL: '/{YOUR GITHUB REPO NAME}/',
     buildAssetsDir: 'assets',
     head:{
       link:[
-        { rel: 'icon', type: 'image/x-icon', href: '/mylinks/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/{YOUR GITHUB REPO NAME}/favicon.ico' },
       ],
     }
   }
