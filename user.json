@@ -47,6 +47,11 @@
       "name": "YouTube",
       "url":  "https://www.youtube.com/channel/UCvQCzSqpjEEiHViD89bNBrQ",
       "image": "youtube.png"
+    },
+    {
+      "name": "Resume",
+      "url":  "resume.pdf",
+      "image": "pdf.png"
     }
   ],
 
