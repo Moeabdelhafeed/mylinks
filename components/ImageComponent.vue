@@ -1,10 +1,10 @@
 <template>
-  <div @mouseleave="flipped = !flipped" @mouseenter="flipped = !flipped" class="flip-container w-32 h-32">
+  <div @mouseleave="flipped = !flipped" @mouseenter="flipped = !flipped" class="flip-container w-28 h-28">
     <div :class="['flipper', flipped ? 'flipped' : '']">
       <!-- Front Image -->
       <div class="front">
         <img
-          class="w-32 h-32 object-cover rounded-full"
+          class="w-28 h-28 object-cover rounded-full"
           :src="'/' + user.gitRepository + '/' + user.userImage"
           alt="User Image"
         />
@@ -12,7 +12,7 @@
       <!-- Back Image -->
       <div class="back">
         <img
-          class="w-32 h-32 object-cover rounded-full"
+          class="w-28 h-28 object-cover rounded-full"
           :src="'/' + user.gitRepository + '/' + user.userImageBack"
           alt="Back Image"
         />
