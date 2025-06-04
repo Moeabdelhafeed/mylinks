@@ -7,10 +7,6 @@ export default defineNuxtConfig({
     '~/assets/css/main.css',
     'bootstrap-icons/font/bootstrap-icons.css'
   ],
-  ssr: true,
-  nitro: {
-    preset : 'static'
-  },
   app: {
     baseURL: '/{YOUR GITHUB REPO NAME}/',
     buildAssetsDir: 'assets',
