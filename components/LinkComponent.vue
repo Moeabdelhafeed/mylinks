@@ -17,7 +17,7 @@
       <div class="relative text-center z-10 text-text flex items-center">
         <img
           class="w-10 h-10 absolute object-cover rounded-full"
-          :src="'/' + user.gitRepository + '/' + props.link?.image"
+          :src="props.link?.image"
           alt="Link image"
         />
         <div class="text-center w-full">

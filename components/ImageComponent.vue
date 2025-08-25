@@ -5,7 +5,7 @@
       <div class="front">
         <img
           class="w-28 h-28 object-cover rounded-full"
-          :src="'/' + user.gitRepository + '/' + user.userImage"
+          :src="user.userImage"
           alt="User Image"
         />
       </div>
@@ -13,7 +13,7 @@
       <div class="back">
         <img
           class="w-28 h-28 object-cover rounded-full"
-          :src="'/' + user.gitRepository + '/' + user.userImageBack"
+          :src="user.userImageBack"
           alt="Back Image"
         />
       </div>

@@ -1,35 +1,73 @@
 {
-  "title": "Your Linktree Title",
-  "name": "Your Full Name",
-  "role": "Your Role or Tagline",
-  "userImage": "user.png",
+  "title" : "Mohammad Abdelhafeed Links",
+  "name": "Mohamamd Abdelhafeed",
+  "role": "Web Developer | UI/UX Designer",
+  "userImage" : "user.png",
   "userImageBack": "userBack.png",
-  "gitRepository": "your-repo-name",
+  "gitRepository": "mylinks",
   "useShadow": true,
-  "seoDescription": "Brief site description for SEO",
-  "seoTitle": "SEO Title of Your Linktree Page",
-  "seoKeywords": "keyword1, keyword2, keyword3",
+
+  "seoDescription": "All my important links in one place. Connect with me!",
+  "seoTitle": "Mohammad Abdelhafeed Links",
   "seoImage": "user.png",
-  "seoUrl": "https://yourusername.github.io/your-repo-name/",
-  "theme": {
+
+  "theme":{
     "colors": {
       "primary": "#00C777",
       "secondary": "#020618",
       "text": "#ffffff"
     }
   },
-  "links": [
+
+
+  "links":[
     {
-      "name": "Platform Name",
-      "url": "https://your-link.com",
-      "image": "icon.png"
+      "name": "Github",
+      "url":  "https://github.com/Moeabdelhafeed",
+      "image": "github.png"
+    },
+    {
+      "name": "LinkedIn",
+      "url":  "https://www.linkedin.com/in/mohammadabdelhafeed-3a7285283/",
+      "image": "linkedin.png"
+    },
+    {
+      "name": "Behance",
+      "url":  "https://www.behance.net/mohammadabdelhafeed",
+      "image": "behance.png"
+    },
+    {
+      "name": "Medium",
+      "url":  "https://medium.com/@almormohammad939",
+      "image": "medium.png"
+    },
+    {
+      "name": "YouTube",
+      "url":  "https://www.youtube.com/channel/UCvQCzSqpjEEiHViD89bNBrQ",
+      "image": "youtube.png"
+    },
+    {
+      "name": "Resume",
+      "url":  "resume.pdf",
+      "image": "pdf.png"
     }
   ],
-  "icons": [
+
+  "icons":[
     {
-      "name": "Contact Method",
-      "url": "mailto:your@email.com",
+      "name": "Whatsapp",
+      "url":  "https://wa.me/962798371926",
+      "bootstrapIcon": "bi bi-whatsapp"
+    },
+    {
+      "name": "Email",
+      "url":  "mailto:almormohammad939@gmail.com",
       "bootstrapIcon": "bi bi-envelope"
+    },
+    {
+      "name": "Instagram",
+      "url":  "https://www.instagram.com/moe_abdelhafeed/",
+      "bootstrapIcon": "bi bi-instagram"
     }
   ]
 }

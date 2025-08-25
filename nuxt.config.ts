@@ -8,11 +8,9 @@ export default defineNuxtConfig({
     'bootstrap-icons/font/bootstrap-icons.css'
   ],
   app: {
-    baseURL: '/{YOUR GITHUB REPO NAME}/',
-    buildAssetsDir: 'assets',
     head:{
       link:[
-        { rel: 'icon', type: 'image/x-icon', href: '/{YOUR GITHUB REPO NAME}/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       ],
     }
   }

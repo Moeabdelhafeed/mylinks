@@ -25,6 +25,15 @@
 <script setup>
 import user from '../user.json'
 
+useSeoMeta({
+  title: user.seoTitle,
+  description: user.seoDescription,
+  image: user.seoImage,
+  ogTitle: user.seoTitle,
+  ogDescription: user.seoDescription,
+  ogImage: user.seoImage,
+})
+
 </script>
 
 <style scoped>

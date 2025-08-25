@@ -20,21 +20,6 @@ import user from '../user.json';
 
 const year = new Date().getFullYear();
 
-useHead({
-    title: user.title,
-    meta: [
-        { name: 'description', content: user.seoDescription },
-        { name: 'keywords', content: user.seoKeywords },
-        { name: 'author', content: user.name },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
-        { property: 'og:title', content: user.seoTitle },
-        { property: 'og:image', content: user.seoImage }, 
-        { property: 'og:url', content: user.seoUrl },
-    ],
-    link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.png' }
-    ]
-});
 </script>
 
 <style  scoped>
